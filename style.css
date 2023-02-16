@@ -1,0 +1,71 @@
+body {
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 76, 76);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+.textarea {
+    display: flex;
+    align-self: center;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 3.5px 3.5px rgba(0, 0, 0, .9);
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+
+    background-color: rgb(246, 144, 144);
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .9);
+    color: brown;
+}
+
+.container h2 {
+
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.counter-container {
+
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.counter-container p{
+
+    color: brown;
+}
+
+.total-counter{
+
+    color: green;
+}
+
+.remaining-counter{
+
+    color: red;
+}
